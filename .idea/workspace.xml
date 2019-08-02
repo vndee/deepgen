@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="264a5aef-51d3-436d-9762-e4c4ea4940ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/deepgen-0.0.3-py3-none-any.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/deepgen-0.0.3.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/1200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/1400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/1600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/2000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/2200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/2400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/2600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/2800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/3000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/3200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/3400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/3600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/3800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/4000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/4200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/4400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/4600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/4800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/5000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/5200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/5400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/5600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/5800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/6000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/6200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/6400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/6600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/6800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/7000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/7200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/7400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/7600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/7800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/8000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/8200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/8400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/8600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/8800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/9000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/images/9200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/deepgen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/deepgen/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepgen.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepgen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/deepgen-0.0.2-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/deepgen-0.0.2.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deepgen/gan/gan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deepgen/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deepgen/gan/base/generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deepgen/gan/base/discriminator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/gan/gan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/tests/gan/vanilla_gan.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/release.sh" />
+        <option value="$PROJECT_DIR$/clean.sh" />
+        <option value="$PROJECT_DIR$/tests/example.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/BaseGAN.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/vanilla_gan.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/Generator.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/Discriminator.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/base/generator.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/base/discriminator.py" />
+        <option value="$PROJECT_DIR$/example/gan/gan.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/gan.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/deepgen/__init__.py" />
+        <option value="$PROJECT_DIR$/project.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="72" />
+    <option name="y" value="27" />
+    <option name="width" value="1279" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="deepgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="gan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="gan" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepgen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepgen" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="gan" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deepgen/gan/base" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.gan">
+    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deepgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deepgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example/gan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/gan/gan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in example.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="deepgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/example.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in vanilla_gan.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="deepgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/gan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/gan/vanilla_gan.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gan" />
+        <item itemvalue="Python.example" />
+        <item itemvalue="Python tests.Unittests in vanilla_gan.py" />
+        <item itemvalue="Python tests.Unittests in example.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="264a5aef-51d3-436d-9762-e4c4ea4940ce" name="Default Changelist" comment="" />
+      <created>1564721420205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564721420205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_example_py - 2019.08.02 at 11h 56m 05s.xml">
+      <configuration name="Unittests in example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_example_py - 2019.08.02 at 11h 56m 15s.xml">
+      <configuration name="Unittests in example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_example_py - 2019.08.02 at 11h 56m 28s.xml">
+      <configuration name="Unittests in example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_example_py - 2019.08.02 at 12h 35m 23s.xml">
+      <configuration name="Unittests in example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_example_py - 2019.08.02 at 12h 35m 36s.xml">
+      <configuration name="Unittests in example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_vanilla_gan_py - 2019.08.02 at 13h 09m 44s.xml">
+      <configuration name="Unittests in vanilla_gan.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_vanilla_gan_py - 2019.08.02 at 13h 12m 42s.xml">
+      <configuration name="Unittests in vanilla_gan.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_vanilla_gan_py - 2019.08.02 at 13h 13m 37s.xml">
+      <configuration name="Unittests in vanilla_gan.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20062695" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2012987" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/gan/vanilla_gan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/vanilla_gan.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/BaseGAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/deepgen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/base/discriminator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="26" selection-start-column="26" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/torch/nn/modules/loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="446" column="6" selection-start-line="446" selection-start-column="6" selection-end-line="446" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/gan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/gan/gan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/base/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/base/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

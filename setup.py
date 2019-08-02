@@ -6,7 +6,7 @@ README = (HERE / 'README.md').read_text()
 
 setup(
     name="deepgen",
-    version="0.0.2",
+    version="0.0.3",
     description="Deep Generative Model",
     long_description=README,
     long_description_content_type="text/markdown",
