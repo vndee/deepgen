@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: deepgen
+Version: 0.0.2
+Summary: Deep Generative Model
+Home-page: https://github.com/vndee/deepgen
+Author: Duy Huynh
+Author-email: hvd.huynhduy@gmail.com
+License: MIT
+Description: #### Deep Generative Model
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
