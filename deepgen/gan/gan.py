@@ -1,3 +1,8 @@
+"""
+    I. Goodfellow, et al. Generative Adversarial Networks.
+    https://arxiv.org/abs/1406.2661
+"""
+
 import torch
 import numpy as np
 import torch.nn as nn
@@ -40,6 +45,12 @@ class Generator(GeneratorBase):
         img = img.view(img.size(0), *self.img_shape)
         return img
 
+    def save(self, model_path):
+        torch.save(self.model.state_dict(), model_path)
+
+    def load(self, model_path):
+        self.model.load_state_dict(torch.load(model_path))
+
     def __str__(self):
         return 'Generator::' + str(self.model)
 
@@ -63,6 +74,12 @@ class Discriminator(DiscriminatorBase):
         img_flat = img.view(img.size(0), -1)
         validity = self.model(img_flat)
         return validity
+
+    def save(self, model_path):
+        torch.save(self.model.state_dict(), model_path)
+
+    def load(self, model_path):
+        self.model.load_state_dict(torch.load(model_path))
 
     def __str__(self):
         return 'Discriminator::' + str(self.model)
@@ -139,6 +156,7 @@ class GAN:
 
                 # Loss measures generator's ability to fool the discriminator
                 g_loss = self.adversarial_loss(self.discriminator(gen_imgs), valid)
+
                 g_loss.backward()
                 self.optimizer_G.step()
 
