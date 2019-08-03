@@ -24,7 +24,7 @@ if __name__ == '__main__':
         datasets.MNIST(
             '../data/',
             train=True,
-            download=False,
+            download=True,
             transform=transforms.Compose(
                 [transforms.Resize(28), transforms.ToTensor(), transforms.Normalize([0.5], [0.5])]
             ),
