@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564820982169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update README.md">
+      <created>1564821244626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564821244626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete useless file" />
     <MESSAGE value="update BGAN and unittest" />
-    <option name="LAST_COMMIT_MESSAGE" value="update BGAN and unittest" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
 </project>

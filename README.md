@@ -8,7 +8,7 @@ A collection of modern Deep Generative Models.
 #### Usage
 
 Toy example:
-```
+```python
 import os
 import torch
 
@@ -52,4 +52,4 @@ if __name__ == '__main__':
 
 ##### Variational Autoencoder (VAEs)
 
-- [ ]
+- [ ] Vanilla Variational Autoencoder
