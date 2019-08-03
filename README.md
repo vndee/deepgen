@@ -45,11 +45,47 @@ if __name__ == '__main__':
 
 ### TODO:
 
-#### Adversarial Generative Network (GANs)
+Updating
 
-- [x] Vanilla Adversarial Generative Neural Network
-- [ ] Boundary Seeking Adversarial Generative Neural Network
+#### Generative Adversarial Network (GANs)
+
+- [x] Vanilla GAN
+- [x] Boundary Seeking GAN
+- [ ] Auxiliary Classifier GAN
+- [ ] BEGAN
+- [ ] BicycleGAN
+- [ ] Boundary-Seeking GAN
+- [ ] Conditional GAN
+- [ ] Context-Conditional GAN
+- [ ] Context Encoder
+- [ ] Coupled GAN
+- [ ] CycleGAN
+- [ ] Deep Convolutional GAN
+- [ ] DiscoGAN
+- [ ] DRAGAN
+- [ ] DualGAN
+- [ ] Energy-Based GAN
+- [ ] Enhanced Super-Resolution GAN
+- [ ] GAN
+- [ ] InfoGAN
+- [ ] Least Squares GAN
+- [ ] MUNIT
+- [ ] Pix2Pix
+- [ ] PixelDA
+- [ ] Relativistic GAN
+- [ ] Semi-Supervised GAN
+- [ ] Softmax GAN
+- [ ] StarGAN
+- [ ] Super-Resolution GAN
+- [ ] UNIT
+- [ ] Wasserstein GAN
+- [ ] Wasserstein GAN GP
+- [ ] Wasserstein GAN DIV
 
 #### Variational Autoencoder (VAEs)
 
-- [ ] Vanilla Variational Autoencoder
+- [ ] Vanilla VAE
+- [ ] Conditional VAE
+- [ ] Denoising VAE
+- [ ] Adversarial Variational Bayes
+- [ ] Adversarial Autoencoder
