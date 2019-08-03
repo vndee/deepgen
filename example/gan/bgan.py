@@ -1,7 +1,7 @@
 import os
 import torch
 
-from deepgen.gan.gan import GAN
+from deepgen.gan.bgan import BGAN
 from deepgen.gan.gan import Generator
 from deepgen.gan.gan import Discriminator
 
@@ -27,11 +27,10 @@ if __name__ == '__main__':
 
     os.makedirs('images', exist_ok=True)
 
-    # G = Generator(latent_dim=100, img_shape=(1, 28, 28))
-    # D = Discriminator(img_shape=(1, 28, 28))
+    G = Generator(latent_dim=100, img_shape=(1, 28, 28))
+    D = Discriminator(img_shape=(1, 28, 28))
 
-    model = GAN()
+    model = BGAN(G, D)
 
     print(model)
-    his = model.train(data_loader=data_loader, n_epoch=5, sample_interval=10)
-    print(his)
+    model.train(data_loader=data_loader, n_epoch=10, sample_interval=100)

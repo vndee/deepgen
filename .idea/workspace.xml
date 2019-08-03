@@ -2,65 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264a5aef-51d3-436d-9762-e4c4ea4940ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deepgen/gan/bgan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepgen/gan/cgan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepgen/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/gan/bgan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deepgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deepgen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib/deepgen/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepgen.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepgen.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepgen.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepgen.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepgen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepgen/gan/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen/gan/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepgen/gan/base/discriminator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepgen/gan/base/generator.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/deepgen/gan/gan.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen/gan/gan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/deepgen-0.0.3-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/deepgen-0.0.3.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/images/9200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/gan/gan.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/gan/gan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.sh" beforeDir="false" afterPath="$PROJECT_DIR$/project.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vndee &lt;hvd.huynhduy@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -89,7 +50,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -108,7 +69,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gan">
+  <component name="RunManager" selected="Python tests.Unittests in model.py">
+    <configuration name="bgan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deepgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example/gan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/gan/bgan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deepgen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,21 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in example.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="deepgen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/example.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in vanilla_gan.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in /home/vndee/workspace/mine/deepgen/tests/gan/vanilla_gan.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="deepgen" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,12 +147,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in model.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="deepgen" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/model.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in model.py" />
         <item itemvalue="Python.gan" />
+        <item itemvalue="Python.bgan" />
         <item itemvalue="Python.example" />
-        <item itemvalue="Python tests.Unittests in vanilla_gan.py" />
-        <item itemvalue="Python tests.Unittests in example.py" />
+        <item itemvalue="Python tests.Unittests in /home/vndee/workspace/mine/deepgen/tests/gan/vanilla_gan.py" />
       </list>
     </recent_temporary>
   </component>
@@ -199,33 +182,15 @@
       <option name="presentableId" value="Default" />
       <updated>1564721420205</updated>
     </task>
+    <task id="LOCAL-00001" summary="delete useless file">
+      <created>1564761732796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564761732797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_example_py - 2019.08.02 at 11h 56m 05s.xml">
-      <configuration name="Unittests in example.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_example_py - 2019.08.02 at 11h 56m 15s.xml">
-      <configuration name="Unittests in example.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_example_py - 2019.08.02 at 11h 56m 28s.xml">
-      <configuration name="Unittests in example.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_example_py - 2019.08.02 at 12h 35m 23s.xml">
-      <configuration name="Unittests in example.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_example_py - 2019.08.02 at 12h 35m 36s.xml">
-      <configuration name="Unittests in example.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_vanilla_gan_py - 2019.08.02 at 13h 09m 44s.xml">
-      <configuration name="Unittests in vanilla_gan.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_vanilla_gan_py - 2019.08.02 at 13h 12m 42s.xml">
-      <configuration name="Unittests in vanilla_gan.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_vanilla_gan_py - 2019.08.02 at 13h 13m 37s.xml">
-      <configuration name="Unittests in vanilla_gan.py" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -239,5 +204,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete useless file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete useless file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deepgen/gan/gan.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/deepgen/gan/gan.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

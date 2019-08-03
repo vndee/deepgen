@@ -1,11 +1,9 @@
 """
-    I. Goodfellow et al. Generative Adversarial Networks.
+    M. Mirza et al. Conditional Generative Adversarial Nets.
     https://arxiv.org/abs/1406.2661
 """
 
-import os
 import torch
-import time
 import numpy as np
 import torch.nn as nn
 
@@ -13,14 +11,12 @@ from torch.utils.data import DataLoader
 from torch.autograd import Variable
 from torchvision.utils import save_image
 
-from deepgen.utils import total_params
-from deepgen.gan.base import GANBase
-from deepgen.gan.base import GeneratorBase
-from deepgen.gan.base import DiscriminatorBase
+from deepgen.gan.base.generator import GeneratorBase
+from deepgen.gan.base.discriminator import DiscriminatorBase
 
 
 class Generator(GeneratorBase):
-    def __init__(self, latent_dim=100, img_shape=(1, 28, 28)):
+    def __init__(self, latent_dim, img_shape):
         super(Generator, self).__init__()
 
         self.img_shape = img_shape
@@ -55,16 +51,12 @@ class Generator(GeneratorBase):
     def load(self, model_path):
         self.model.load_state_dict(torch.load(model_path))
 
-    def infer(self, z):
-        self.model.eval()
-        return self.model(z)
-
     def __str__(self):
         return 'Generator::' + str(self.model)
 
 
 class Discriminator(DiscriminatorBase):
-    def __init__(self, img_shape=(1, 28, 28)):
+    def __init__(self, img_shape):
         super(Discriminator, self).__init__()
 
         self.img_shape = img_shape
@@ -89,15 +81,11 @@ class Discriminator(DiscriminatorBase):
     def load(self, model_path):
         self.model.load_state_dict(torch.load(model_path))
 
-    def infer(self, img):
-        self.model.eval()
-        return self.model(img.view(img.size(0), -1))
-
     def __str__(self):
         return 'Discriminator::' + str(self.model)
 
 
-class GAN(GANBase):
+class GAN:
     def __init__(self,
                  generator: nn.Module = None,
                  discriminator: nn.Module = None,
@@ -147,23 +135,11 @@ class GAN(GANBase):
     def train(self,
               data_loader: DataLoader = None,
               n_epoch: int = 100,
-              sample_interval: int = 400,
-              save_model_per_epoch: int = 1,
-              verbose: bool = True):
-
-        training_history = []
-        if save_model_per_epoch > 0:
-            if not os.path.exists('checkpoints'):
-                os.makedirs('checkpoints')
+              sample_interval = 10):
 
         for epoch in range(n_epoch):
-            total_g_loss = 0.0
-            total_d_loss = 0.0
-            total_time = 0.0
-
             for i, (imgs, _) in enumerate(data_loader):
                 # Adversarial ground truths
-                t0 = time.time()
                 valid = Variable(self.Tensor(imgs.size(0), 1).fill_(1.0), requires_grad=False)
                 fake = Variable(self.Tensor(imgs.size(0), 1).fill_(0.0), requires_grad=False)
 
@@ -194,31 +170,16 @@ class GAN(GANBase):
 
                 d_loss.backward()
                 self.optimizer_D.step()
-                t1 = time.time()
 
-                if verbose:
-                    print('[Epoch %d/%d] [Batch %d/%d] [D loss: %f] [G loss: %f] [Time: %f]'
-                          % (epoch, n_epoch, i, len(data_loader), d_loss.item(), g_loss.item(), (t1 - t0)))
-
-                total_g_loss += g_loss.item()
-                total_d_loss += d_loss.item()
-                total_time += (t1 - t0)
+                print('[Epoch %d/%d] [Batch %d/%d] [D loss: %f] [G loss: %f]'
+                      % (epoch, n_epoch, i, len(data_loader), d_loss.item(), g_loss.item()))
 
                 batches_done = epoch * len(data_loader) + i
-                if sample_interval > 0 and batches_done % sample_interval == 0:
+                if batches_done % sample_interval == 0:
                     save_image(gen_imgs.data[:25], 'images/%d.png' % batches_done, nrow=5, normalize=True)
 
-            training_history.append([total_g_loss/len(data_loader), total_d_loss/len(data_loader), total_time])
-            if save_model_per_epoch > 0 and epoch % save_model_per_epoch == 0:
-                self.generator.save(os.path.join('checkpoints', 'generator_' + str(epoch) + '_%.3f' % (total_g_loss/len(data_loader)) + '.dg'))
-
-        return {'g_loss': training_history[:][0], 'd_loss': training_history[:][1], 'time': training_history[:][2]}
-
     def __str__(self):
-        return str(self.generator) + '\n'\
-               + total_params(self.generator) + '\n'\
-               + str(self.discriminator) + '\n' \
-               + total_params(self.discriminator)
+        return str(self.generator) + '\n' + str(self.discriminator)
 
 
 

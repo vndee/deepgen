@@ -1,2 +1,7 @@
 example/data/
+example/checkpoints/
+example/images/
 venv/
+build/
+dist/
+deepgen.egg-info/

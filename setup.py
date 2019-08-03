@@ -1,12 +1,12 @@
 import pathlib
-from setuptools import setup
+from setuptools import find_packages, setup
 
 HERE = pathlib.Path(__file__).parent
 README = (HERE / 'README.md').read_text()
 
 setup(
     name="deepgen",
-    version="0.0.3",
+    version="0.0.8",
     description="Deep Generative Model",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -19,7 +19,9 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["deepgen"],
+    packages=find_packages(exclude=('example')),
     include_package_data=True,
-    install_requires=[],
+    install_requires=['torch==1.1.0',
+                      'torchvision==0.3.0',
+                      'tqdm==4.32.2'],
 )
