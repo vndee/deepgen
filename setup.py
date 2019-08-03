@@ -6,8 +6,8 @@ README = (HERE / 'README.md').read_text()
 
 setup(
     name="deepgen",
-    version="0.0.9",
-    description="Deep Generative Model",
+    version="0.0.10",
+    description="A Collection of modern Deep Generative Models",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/vndee/deepgen",
