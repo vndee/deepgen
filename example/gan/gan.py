@@ -2,9 +2,6 @@ import os
 import torch
 
 from deepgen.gan.gan import GAN
-from deepgen.gan.gan import Generator
-from deepgen.gan.gan import Discriminator
-
 from torchvision import datasets
 import torchvision.transforms as transforms
 
@@ -26,9 +23,6 @@ if __name__ == '__main__':
     )
 
     os.makedirs('images', exist_ok=True)
-
-    # G = Generator(latent_dim=100, img_shape=(1, 28, 28))
-    # D = Discriminator(img_shape=(1, 28, 28))
 
     model = GAN()
 

@@ -6,7 +6,7 @@ README = (HERE / 'README.md').read_text()
 
 setup(
     name="deepgen",
-    version="0.0.8",
+    version="0.0.9",
     description="Deep Generative Model",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -19,7 +19,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=find_packages(exclude=('example')),
+    packages=find_packages(exclude=('example', 'test')),
     include_package_data=True,
     install_requires=['torch==1.1.0',
                       'torchvision==0.3.0',
