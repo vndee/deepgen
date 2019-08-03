@@ -4,9 +4,6 @@
     <list default="true" id="264a5aef-51d3-436d-9762-e4c4ea4940ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepgen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/gan/gan.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/gan/gan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564811054952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update BGAN and unittest">
+      <created>1564820982169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564820982169</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

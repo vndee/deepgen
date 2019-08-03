@@ -1,11 +1,11 @@
 ### DeepGen
 A collection of modern Deep Generative Models.
 
-####Install
+#### Install
 
 `pip3 install deepgen`
 
-####Usage
+#### Usage
 
 Toy example:
 ```
@@ -43,5 +43,13 @@ if __name__ == '__main__':
 
 ```
 
-####TODO:
+#### TODO:
 
+##### Adversarial Generative Network (GANs)
+
+- [x] Vanilla Adversarial Generative Neural Network
+- [ ] Boundary Seeking Adversarial Generative Neural Network
+
+##### Variational Autoencoder (VAEs)
+
+- [ ]
