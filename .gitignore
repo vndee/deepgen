@@ -1,3 +1,6 @@
+*.png
+*.ubyte
+example/gan/iamges/
 example/data/
 example/checkpoints/
 example/images/

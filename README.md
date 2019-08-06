@@ -55,7 +55,7 @@ Updating
 - [ ] BEGAN
 - [ ] BicycleGAN
 - [ ] Boundary-Seeking GAN
-- [ ] Conditional GAN
+- [x] Conditional GAN
 - [ ] Context-Conditional GAN
 - [ ] Context Encoder
 - [ ] Coupled GAN

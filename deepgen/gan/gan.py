@@ -211,8 +211,11 @@ class GAN(GANBase):
             training_history.append([total_g_loss/len(data_loader), total_d_loss/len(data_loader), total_time])
             if save_model_per_epoch > 0 and epoch % save_model_per_epoch == 0:
                 self.generator.save(os.path.join('checkpoints', 'generator_' + str(epoch) + '_%.3f' % (total_g_loss/len(data_loader)) + '.dg'))
+                self.discriminator.save(os.path.join('checkpoints', 'discriminator_' + str(epoch) + '_%.3f' % (total_d_loss/len(data_loader)) + '.dg'))
 
-        return {'g_loss': training_history[:][0], 'd_loss': training_history[:][1], 'time': training_history[:][2]}
+        return {'g_loss':   [training_history[_][0] for _ in range(len(training_history))],
+                'd_loss':   [training_history[_][1] for _ in range(len(training_history))],
+                'time':     [training_history[_][2] for _ in range(len(training_history))]}
 
     def __str__(self):
         return str(self.generator) + '\n'\
