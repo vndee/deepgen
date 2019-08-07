@@ -60,7 +60,7 @@ Updating
 - [ ] Context Encoder
 - [ ] Coupled GAN
 - [ ] CycleGAN
-- [ ] Deep Convolutional GAN
+- [x] Deep Convolutional GAN
 - [ ] DiscoGAN
 - [ ] DRAGAN
 - [ ] DualGAN

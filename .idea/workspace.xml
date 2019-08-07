@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264a5aef-51d3-436d-9762-e4c4ea4940ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deepgen/gan/dcgan.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/gan/checkpoints/discriminator_0_0.076.dg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/gan/checkpoints/discriminator_0_0.078.dg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/gan/checkpoints/discriminator_0_0.084.dg" afterDir="false" />
@@ -15,15 +14,8 @@
       <change afterPath="$PROJECT_DIR$/example/gan/checkpoints/generator_0_0.739.dg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/gan/checkpoints/generator_0_0.740.dg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/gan/checkpoints/generator_1_0.858.dg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/data/MNIST/processed/test.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/data/MNIST/processed/training.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/data/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/data/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/data/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/data/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/gan/dcgan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepgen/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepgen/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +40,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deepgen/gan/dcgan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2790">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#244#253#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -66,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/gan/dcgan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="225">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -129,15 +130,15 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/example/gan/bgan.py" />
         <option value="$PROJECT_DIR$/example/gan/test.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/deepgen/gan/cgan.py" />
         <option value="$PROJECT_DIR$/example/gan/cgan.py" />
         <option value="$PROJECT_DIR$/deepgen/gan/bgan.py" />
         <option value="$PROJECT_DIR$/deepgen/gan/gan.py" />
         <option value="$PROJECT_DIR$/deepgen/utils.py" />
-        <option value="$PROJECT_DIR$/deepgen/gan/dcgan.py" />
         <option value="$PROJECT_DIR$/example/gan/dcgan.py" />
+        <option value="$PROJECT_DIR$/deepgen/gan/dcgan.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -399,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565080614402</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add DCGAN">
+      <created>1565169191146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565169191146</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add DCGAN">
+      <created>1565169322818</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565169322818</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -411,12 +426,12 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20358306" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20358306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +483,8 @@
     <MESSAGE value="update BGAN and unittest" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="add CGAN" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CGAN" />
+    <MESSAGE value="add DCGAN" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DCGAN" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/model.py">
@@ -506,19 +522,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/gan/test.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-            <folding>
-              <element signature="e#0#9#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/gan/gan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -600,23 +603,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deepgen/gan/dcgan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2790">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#244#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/gan/dcgan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="225">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepgen/gan/dcgan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
