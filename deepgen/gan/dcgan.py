@@ -2,7 +2,6 @@
     Alec Radford et al. Unsupervised representation learning with
     Deep Convolutional Generative Adversarial Networks.
     https://arxiv.org/pdf/1511.06434.pdf
-    https://wiseodd.github.io/techblog/2017/03/07/boundary-seeking-gan/
 """
 
 import os
