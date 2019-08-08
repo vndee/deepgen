@@ -49,12 +49,6 @@ class Generator(GeneratorBase):
         img = img.view(img.size(0), *self.img_shape)
         return img
 
-    def save(self, model_path):
-        torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
-
     def infer(self, z):
         self.model.eval()
         return self.model(z)
@@ -82,12 +76,6 @@ class Discriminator(DiscriminatorBase):
         img_flat = img.view(img.size(0), -1)
         validity = self.model(img_flat)
         return validity
-
-    def save(self, model_path):
-        torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
 
     def infer(self, img):
         self.model.eval()

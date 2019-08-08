@@ -50,12 +50,6 @@ class Generator(GeneratorBase):
         img = img.view(img.size(0), *self.img_shape)
         return img
 
-    def save(self, model_path):
-        torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
-
     def __str__(self):
         return 'Generator::' + str(self.model)
 
@@ -83,12 +77,6 @@ class Discriminator(DiscriminatorBase):
     def forward(self, img, label):
         inp = torch.cat((img.view(img.size(0), -1), self.label_emb(label)), -1)
         return self.model(inp)
-
-    def save(self, model_path):
-        torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
 
     def __str__(self):
         return 'Discriminator::' + str(self.model)

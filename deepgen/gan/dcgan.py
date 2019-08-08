@@ -46,12 +46,6 @@ class Generator(GeneratorBase):
         y = y.view(y.shape[0], 128, self.init_size, self.init_size)
         return self.model(y)
 
-    def save(self, model_path):
-        torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
-
     def infer(self, z):
         self.model.eval()
         return self.model(z)
@@ -86,13 +80,6 @@ class Discriminator(DiscriminatorBase):
 
     def save(self, model_path):
         torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
-
-    def infer(self, img):
-        self.model.eval()
-        return self.model(img.view(img.size(0), -1))
 
     def __str__(self):
         return 'Discriminator::' + str(self.model)

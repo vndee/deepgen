@@ -84,12 +84,6 @@ class Discriminator(DiscriminatorBase):
         validity = self.model(img_flat)
         return validity
 
-    def save(self, model_path):
-        torch.save(self.model.state_dict(), model_path)
-
-    def load(self, model_path):
-        self.model.load_state_dict(torch.load(model_path))
-
     def infer(self, img):
         self.model.eval()
         return self.model(img.view(img.size(0), -1))

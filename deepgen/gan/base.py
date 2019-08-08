@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 
 
@@ -19,14 +20,11 @@ class GeneratorBase(nn.Module):
     def __str__(self):
         return NotImplementedError
 
-    def infer(self, *args, **kwargs):
-        return NotImplementedError
+    def save(self, model_path):
+        torch.save(self.model.state_dict(), model_path)
 
-    def save(self):
-        return None
-
-    def load(self):
-        return None
+    def load(self, model_path):
+        self.model.load_state_dict(torch.load(model_path))
 
 
 class DiscriminatorBase(nn.Module):
@@ -39,12 +37,10 @@ class DiscriminatorBase(nn.Module):
     def __str__(self):
         return NotImplementedError
 
-    def infer(self, *args, **kwargs):
-        return NotImplementedError
+    def save(self, model_path):
+        torch.save(self.model.state_dict(), model_path)
 
-    def save(self):
-        return None
+    def load(self, model_path):
+        self.model.load_state_dict(torch.load(model_path))
 
-    def load(self):
-        return None
 
