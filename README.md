@@ -1,4 +1,7 @@
 ## DeepGen
+
+[![PyPI Downloads](https://static.pepy.tech/badge/deepgen)](https://pepy.tech/projects/deepgen)
+
 A collection of modern Deep Generative Models.
 
 ### Install
