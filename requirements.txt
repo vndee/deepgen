@@ -1,6 +1,6 @@
 bleach==3.1.0
 bumpversion==0.5.3
-certifi==2019.6.16
+certifi==2022.12.7
 chardet==3.0.4
 cycler==0.10.0
 deepgen==0.0.1
